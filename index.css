@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;
+  }
+.header{text-align:center;
+        background:#338593;
+		padding:4%;
+		}
+.author{
+		color:#333;
+		font-size:20px;;
+		display:inline-block;
+        }
+.header p span{
+				color:#000;
+				font-size:3em;
+	           }
+.author,.photo{float:right;
+			   }
+.header img{width:10%; 
+			display:inline-block;
+			}
+.header hr{display:inline-block;
+           width:10%;
+		   margin:0 10%;
+		   border:1px solid #000;
+		   }
+.main{margin:5% 10%;
+      }
+#tdc{width:10%;
+	 display:inline-block;
+	 float:right;
+	 margin:5% 20%;
+	 }
+.main li{font-weight:bold;
+         background:#338593;
+		 padding:1%;
+		 margin:2%;
+		 }
+.Personal p img{width:5%;
+				}
+.Personal img{width:20%;
+              }
+.school table{border:2px solid #70c8ea;
+			  }
+.school table td{padding:1%;}
+.experience table,.school table{width:80%;
+							    text-align:center;
+							    margin:4% auto;
+                                }
+.experience hr{border:1px solid #338593;
+	           height:0px;
+               }
+.appraisal p{text-indent:1.5em;
+             margin:3% 20%;
+			 }
+.footer{text-align:center;
+        background:#338593
+		}
